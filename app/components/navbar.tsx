@@ -11,7 +11,7 @@ export default function NavBar() {
     <div className="relative md:px-0 px-1.5">
       <div className="flex py-3.5 items-center justify-between max-w-6xl mx-auto">
         <Image
-          src={`/logo.png`}
+          src={`/img/logo.png`}
           alt="logo"
           sizes="100vh"
           width={0}
