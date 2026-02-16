@@ -48,20 +48,20 @@ export default function Contact() {
             <div className="flex flex-col items-center">
               <div className="grid md:grid-cols-2 gap-4 items-center">
                 <input
-                  className="border focus:outline-none border-gray-200 p-2.5 w-full placeholder:text-gray-200"
+                  className="border focus:outline-none border-gray-500 p-2.5 w-full placeholder:text-gray-200"
                   placeholder="Your Name"
                 />
                 <input
-                  className="border focus:outline-none border-gray-200 p-2.5 w-full placeholder:text-gray-200"
+                  className="border focus:outline-none border-gray-500 p-2.5 w-full placeholder:text-gray-200"
                   placeholder="Your Email"
                 />
                 <input
-                  className="col-span-2 border focus:outline-none border-gray-200 p-2.5 w-full placeholder:text-gray-200"
+                  className="col-span-2 border focus:outline-none border-gray-500 p-2.5 w-full placeholder:text-gray-200"
                   placeholder="Subject"
                 />
                 <textarea
                   rows={3}
-                  className="col-span-2 border focus:outline-none border-gray-200 p-2.5 w-full placeholder:text-gray-200"
+                  className="col-span-2 w-full border focus:outline-none border-gray-500 p-2.5 w-full placeholder:text-gray-200"
                   placeholder="Message"
                 />
               </div>
